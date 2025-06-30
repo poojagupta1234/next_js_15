@@ -30,7 +30,8 @@ export default function LoginForm() {
     e.preventDefault();
     const formData = new FormData(e.currentTarget as HTMLFormElement);
      console.log("formData", formData);
-     
+     console.log('${process.env.NEXT_PUBLIC_BASE_URL}', process.env.NEXT_PUBLIC_BASE_URL)
+
     const result = await handleLogin(formData);
          console.log("result", result);
 
