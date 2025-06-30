@@ -1,0 +1,96 @@
+
+.header {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.logoBar {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    padding: 23px 30px;
+    border-right: 1px solid #000;
+}
+
+.address {
+    padding: 13px 30px;
+
+}
+
+
+.h3 {
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+
+.para {
+    font-size: 15px;
+}
+
+.searchBar {
+    border: 1px solid gray;
+    flex-grow: 1; 
+    display: flex;
+    align-items: center;
+    border-radius: 8px ;
+    background-color:#F8F8F8;
+}
+
+.searchInput {
+    border: none;
+    flex-grow: 1;
+    background-color: transparent;
+  
+}
+ .searchInput:focus {
+    outline: none;
+}
+
+.searchBar button {
+    border: none;
+    padding: 10px;
+   
+    background-color: transparent;
+}
+
+.headerButton {
+   margin-right: 40px;
+   display: flex;
+   gap:20px;
+   cursor: pointer;
+  
+}
+.headerButton button {
+    padding: 5px 12px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.headerButton button:last-child {
+    background-color: #0C831F;
+    color: white;
+    border-radius: 8px;
+    
+}
+.mycart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
