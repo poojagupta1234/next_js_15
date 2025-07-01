@@ -23,8 +23,9 @@ export default function Cart(props: CartProps) {
   return (
     <ProductItems key={productItem.id}>
       <ProductItemsImg>
+        
         <Image
-          src={`/images/${productItem.imageUrl}`}
+          src={`/images/amul.avif`}
           alt="amul.avif"
           width={70}
           height={100}
@@ -33,7 +34,7 @@ export default function Cart(props: CartProps) {
           priority
         />
       </ProductItemsImg>
-      <p>
+    
         <ProductTime>
           <Image
             src={`/images/15-mins.avif`}
@@ -44,7 +45,7 @@ export default function Cart(props: CartProps) {
           />
           8 min
         </ProductTime>
-      </p>
+      
       <ProductItemsText>
         <h3>{productItem.name}</h3>
         <p>{productItem.qty} ml</p>

@@ -30,7 +30,9 @@ export default function Header() {
         src={`/images/GWL.jfif`}
       width={50}
       height={50}
+       quality={75} 
       alt="Picture of the author"/>
+    
     
      </Link>
      <nav className='flex p-4  items-center gap-4 flex-wrap'> 
