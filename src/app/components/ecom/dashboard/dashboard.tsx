@@ -10,15 +10,17 @@ interface DashboardProps {
 }
 
 export default function Dashboard(props: DashboardProps) {
-
     const { role } = props;
   return (
    <div>
     <Header/>
-    <div className=' bg-gray-100  p-6'>
+    <div className=' bg-gray-100  p-6 h-screen flex flex-col items-center justify-center'>
+    <h1 className='text-4xl font-bold mb-4'>Dashboard</h1>
+    <p className='text-xl mb-6'>This is the dashboard page for the role: {role}</p>
+    <div className='bg-white shadow-md rounded-lg p-8 max-w-md w-full'>
+    <h2 className='text-2xl font-semibold mb-4'>Hello, {role}!</h2>
+  </div>
   
-    <p className='text-2xl'>Welcome to the dashboard!</p>
-    <p className='text-2xl '>Role: {role}</p>
     </div>
     <Footer />
    </div>
