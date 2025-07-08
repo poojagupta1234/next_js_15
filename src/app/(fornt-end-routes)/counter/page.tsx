@@ -1,6 +1,6 @@
 
 
-import Counter from "../../components/counter/counter";
+import Counter from "../../../components/counter/counter";
 
 export default function CounterPage() {
   return (

@@ -1,4 +1,4 @@
-import Dashboard from "@/app/components/ecom/dashboard/dashboard";
+import Dashboard from "@/components/ecom/dashboard/dashboard";
 export default async function DashboardPage({
   params,
 }: Readonly<{

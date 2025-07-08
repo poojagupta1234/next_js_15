@@ -1,5 +1,5 @@
 
-import LoginBlink from '@/app/components/ecom/login/login';
+import LoginBlink from '@/components/ecom/login/login';
 /**
  * LoginPage component handles the user login process.
  */

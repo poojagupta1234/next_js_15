@@ -42,7 +42,7 @@ export const products = [
   },
   {
     id: 2,
-    name: "Amul Taaza Toned Fresh Milk",
+    name: "Baby Amul Taaza Toned Fresh Milk",
     price: 200,
      qty:500,
     imageUrl: "amul.avif",
@@ -50,7 +50,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "Amul Taaza Toned Fresh Milk",
+    name: "Cia Fresh Milk",
     price: 300,
      qty:500,
     imageUrl: "amul.avif",
@@ -58,7 +58,7 @@ export const products = [
   },
   {
     id: 4,
-    name: "Amul Taaza Toned Fresh Milk",
+    name: "Dia Taaza Toned Fresh Milk",
     price: 300,
      qty:500,
     imageUrl: "amul.avif",
@@ -66,7 +66,7 @@ export const products = [
   },
   {
     id: 5,
-    name: "Amul Taaza Toned Fresh Milk",
+    name: "Era Fresh Milk",
     price: 300,
      qty:500,
     imageUrl: "amul.avif",
@@ -88,7 +88,7 @@ export const products = [
  products: [
     {
     id: 1,
-    name: "Amul Taaza Toned Fresh Milk",
+    name: "pihu Taaza Toned Fresh Milk",
     price: 100,
      qty:500,
     imageUrl: "amul.avif",
@@ -96,7 +96,7 @@ export const products = [
   },
   {
     id: 2,
-    name: "Amul Taaza Toned Fresh Milk 2",
+    name: "Bread ",
     price: 200,
      qty:500,
     imageUrl: "amul.avif",
@@ -104,7 +104,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "Amul Taaza Toned Fresh Milk 3",
+    name: "Tea",
     price: 300,
      qty:500,
     imageUrl: "amul.avif",
@@ -112,7 +112,7 @@ export const products = [
   },
   {
     id: 4,
-    name: "Amul Taaza Toned Fresh Milk 4",
+    name: "Coffee",
     price: 300,
      qty:500,
     imageUrl: "amul.avif",
@@ -120,7 +120,7 @@ export const products = [
   },
   {
     id: 5,
-    name: "Amul Taaza Toned Fresh Milk 5",
+    name: "Souces",
     price: 300,
      qty:500,
     imageUrl: "amul.avif",
@@ -128,7 +128,7 @@ export const products = [
   },
   {
     id: 6,
-    name: "Amul Taaza Toned Fresh Milk 5",
+    name: "Maggi",
     price: 300,
      qty:500,
     imageUrl: "amul.avif",
@@ -142,7 +142,7 @@ export const products = [
  products: [
     {
     id: 1,
-    name: "Amul Taaza Toned bread",
+    name: "Pasta",
     price: 100,
      qty:500,
     imageUrl: "amul.avif",
@@ -150,7 +150,7 @@ export const products = [
   },
   {
     id: 2,
-    name: "Amul Taaza Toned bread 2",
+    name: "Ghee",
     price: 200,
      qty:500,
     imageUrl: "amul.avif",
@@ -158,7 +158,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "Amul Taaza Toned bread 3",
+    name: "Cow Milk",
     price: 300,
     qty:500,
     imageUrl: "amul.avif",
@@ -166,7 +166,7 @@ export const products = [
   },
   {
     id: 4,
-    name: "Amul Taaza Toned kappor 4",
+    name: "magii Taaza Toned kappor 4",
     price: 300,
      qty:500,
     imageUrl: "amul.avif",
@@ -174,7 +174,7 @@ export const products = [
   },
   {
     id: 5,
-    name: "Amul Taaza Toned tamoto 5",
+    name: "Pasta Taaza Toned tamoto 5",
     price: 300,
      qty:500,
     imageUrl: "amul.avif",
@@ -182,7 +182,7 @@ export const products = [
   },
   {
     id: 6,
-    name: "Amul Taaza Toned Fresh Milk",
+    name: "Ghee Taaza Toned Fresh Milk",
     price: 300,
      qty:500,
     imageUrl: "amul.avif",

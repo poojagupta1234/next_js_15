@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Blink from '@/app/components/ecom/blink';
+import Blink from '@/components/ecom/blink';
 import { products } from '@/app/data/data';
 
 /**

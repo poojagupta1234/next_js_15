@@ -22,7 +22,7 @@ export async function GET(request) {
 
 export async function POST(request) {
   const { name, text } = await request.json();
-  console.log("POST", name, text);
+
   const newComment = {
     id : comments.length + 1,
     name,

@@ -1,10 +1,8 @@
 'use server';
-
 export async function handleLogin(formData: FormData) {
-
+ 
   const email = formData.get('email') as string;
   const password = formData.get('password') as string;
-  console.log('${process.env.NEXT_PUBLIC_BASE_URL}', process.env.NEXT_PUBLIC_BASE_URL)
   // your server logic
     try {
       // Send POST request to the login API
@@ -18,7 +16,7 @@ export async function handleLogin(formData: FormData) {
 
       // Parse the JSON response
       const data = await res.json();
-    
+      
       return data;
     
     } catch (error) {
