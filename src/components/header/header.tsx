@@ -37,13 +37,13 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/images/GWL.jfif"
+            src="/images/shopping.png"
             width={40}
             height={40}
             alt="GWL Logo"
             className="rounded-full"
           />
-       
+       <span className="text-white text-lg font-semibold">Shopping</span>
         </Link>
 
         {/* Navigation */}
