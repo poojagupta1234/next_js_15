@@ -39,7 +39,7 @@ export default function ProductGrid() {
       <div className="grid gap-8 md:grid-cols-3">
         {products.map((product, index) => (
           <div key={index} className="border rounded-lg overflow-hidden hover:shadow-md transition">
-            <Image src={product.image} alt={product.name} className="w-full h-60 object-cover" />
+            <Image src={product.image} alt={product.name} className="w-full h-60 object-cover" width={100} height={100} />
             <div className="p-4 text-center">
               <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
               <p className="text-blue-600 font-bold">{product.price}</p>

@@ -58,8 +58,9 @@ export default function RegisterPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
       <form onSubmit={handleSubmit} className="w-full max-w-md bg-white p-8 shadow-lg rounded-2xl space-y-6">
-        <h1 className="text-2xl font-bold text-gray-800">Create an Account</h1>
-            <h2 className="text-2xl font-bold text-center text-gray-800 bg-green-400 p-2">Register </h2>
+                    <h1 className="text-2xl font-bold text-center text-gray-800 bg-green-400 p-2">Next Auth  Register </h1>
+
+        <h2 className="text-2xl font-bold text-gray-800">Create an Account</h2>
 
         {message && (
           <div className="text-sm px-4 py-2 rounded bg-green-100 text-green-700 border border-green-300">

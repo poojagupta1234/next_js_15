@@ -32,7 +32,7 @@ export default function ProfileClient({ session }:  Readonly<{ session: Session 
         <div className="flex justify-center">
           <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-blue-100 shadow">
             <Image
-              src={user?.image ?? '/images/pharmacy-WEB.avif'}
+              src={'/images/user-admin-svgrepo-com.svg'}
               alt="User Avatar"
               width={96}
               height={96}
