@@ -25,13 +25,13 @@ export default function Cart(props: CartProps) {
       <ProductItemsImg>
         
         <Image
-          src={`/images/amul.avif`}
-          alt="amul.avif"
-          width={70}
+          src="/images/milk.jpeg"
+          alt="milk.jpeg"
+          width={100}
           height={100}
           quality={75}
-          className="img"
           priority
+          className="rounded-lg object-cover"
         />
       </ProductItemsImg>
     

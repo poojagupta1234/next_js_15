@@ -32,7 +32,7 @@ export const StyledButton = styled.button`
 export const ProductItems = styled.div`
     border: 1px solid #ccc;
     flex-basis: 15%;
-    padding: 10px;
+    padding: 15px;
     margin: 1% 0;
     box-shadow: 0 0 10px 2px #ccc;
     border-radius: 15px;
