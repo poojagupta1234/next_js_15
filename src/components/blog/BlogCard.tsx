@@ -11,7 +11,7 @@ interface BlogPost {
 }
 export default function BlogCard({ post }: Readonly<{ post: BlogPost }>) {
   return (
-    <div className="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+    <div className="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden hover:scale-105">
       <Image
         src={post.image}
         alt={post.title}
